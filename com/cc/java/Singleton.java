@@ -17,4 +17,17 @@ public class Singleton {
         return instance;
     }
 
+    /* Funktionalität */
+
+    private int counter;
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void actOnEvent() {
+        this.counter ++;
+    }
+
+    
 }
